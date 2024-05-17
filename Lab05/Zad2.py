@@ -2,6 +2,7 @@ import numpy as np
 from scipy.signal import freqs, impulse, TransferFunction, step
 import matplotlib.pyplot as plt
 
+#Dane początkowe z zadania
 N_values = [2, 4, 6, 8]
 omega_3dB = 2 * np.pi * 100
 w = np.linspace(0, 2000, num=20001) * 2 * np.pi  # Angular frequency in rad/s
